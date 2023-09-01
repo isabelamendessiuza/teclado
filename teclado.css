@@ -13,7 +13,7 @@
 }
 
 .tecla  {
-  .tecla.ativa;
+  .tecla.ativa,
   .tecla :active {
    color: brown;
    background-color: blueviolet;
@@ -21,7 +21,7 @@
 
   }
 
-}
+,
 
 
 
