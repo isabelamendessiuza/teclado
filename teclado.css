@@ -1,0 +1,28 @@
+.teclado {
+   display: grid;
+   gap: 10px;
+   grid-template-columns: repeat(3,sfr);
+   padding: 10px;
+   background-color:rgb(93, 142, 199) ;
+
+}
+
+.tecla {
+    background-color: rgb(167, 212, 175);
+    color: rgb(81, 206, 56);
+}
+
+.tecla  {
+  .tecla.ativa;
+  .tecla :active {
+   color: brown;
+   background-color: blueviolet;
+   outline: none;
+
+  }
+
+}
+
+
+
+
