@@ -2,7 +2,7 @@ function tocar(idAudio) {
     document.querySelector('#som_tecla_Toim').play();
 }
 
-const lista = document.querySelector('.tecla');
+const lista = document.querySelectorAll('.tecla');
 
 let contador = 0;
 
