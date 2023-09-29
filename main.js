@@ -1,4 +1,4 @@
-function tocar(idAudio) {
+                                                                                                                                                                                                                                                                                                                                                function tocar(idAudio) {
     document.querySelector('#som_tecla_Toim').play();
 }
 
@@ -11,7 +11,12 @@ while (contador < lista.length) {
         tocar('#som_tecla_Toim');
     }
     const classe = lista[contador].classList[1];
-   console.log(classe);
+    console.log(classe);
+
     contador = contador + 1;
     console.log(contador);
+
+    const idAudio = '#som_{classe}';
+    console.log(idAudio);
+    //#som_(classe)
 }
