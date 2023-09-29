@@ -13,7 +13,7 @@ while (contador < lista.length) {
     console.log(idAudio);
 
     lista[contador].onclick = function () {
-    tocar(idAuidio');
+    tocar(idAuidio);
     }
    
     contador = contador + 1;
